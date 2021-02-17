@@ -30,10 +30,6 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-
-
-
-
         <Webcam ref={webcamRef}
           style={{
             position: "absolute",
