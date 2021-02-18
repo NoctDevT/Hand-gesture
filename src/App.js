@@ -10,7 +10,6 @@ import victory from './victory.png'
 import thumbs_up from './thumbs_up.png'
 
 
-// this.state = useState({})
 
 
 
@@ -20,7 +19,6 @@ function App() {
   const [currentGesture, setGesture] = useState(null);
   const image = {thumbs_up: thumbs_up, victory: victory};
 
-  // console.log(webcamRef)
 
 
   runHandPose(webcamRef, canvasRef);
